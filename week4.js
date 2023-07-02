@@ -194,7 +194,7 @@ function willBuyDrink (isHotOutside, moneyInPocket){
 }
 
 
-//Question 13 - Solve a Problem (Fibonacci Counter)
+//Question 13 - Solve a Problem (Fibonacci Sequence Generator)
 
 function fibonacciGenerator (n) {
   let fibOutput = [];
