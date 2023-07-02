@@ -197,22 +197,22 @@ function willBuyDrink (isHotOutside, moneyInPocket){
 //Question 13 - Solve a Problem (Fibonacci Counter)
 
 function fibonacciGenerator (n) {
-  let output = [];
+  let fibOutput = [];
   if (n === 1){
-    output = [0];
+    fibOutput = [0];
   } 
   else if (n === 2){
-    output = [0, 1];
+    fibOutput = [0, 1];
   }
   else {
-    output = [0, 1];
+    fibOutput = [0, 1];
 
     for (let i = 2; i < n; i++){
-    output.push(output[output.length - 2] + output[output.length - 1]);
+      fibOutput.push(fibOutput[fibOutput.length - 2] + fibOutput[fibOutput.length - 1]);
     }
   }
-return output;
+return fibOutput;
 }
 
-output = fibonacciGenerator(50);
-  console.log(output);
+fibOutput = fibonacciGenerator(50);
+  console.log(fibOutput);
